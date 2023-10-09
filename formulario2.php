@@ -28,7 +28,7 @@
                 <button style="display: inline-block;">-</button>
                 <button style="display: inline-block;">+</button>
             </div>
-                <input type="submit" value="Gerar" name="gerar">
+                <input type="submit" value="Gerar :D" name="gerar">
             
         </form>
     </header>
