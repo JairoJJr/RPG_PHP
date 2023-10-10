@@ -1,4 +1,5 @@
 <?php 
+    $tipo = $_POST["tipo"];
     $nome = $_POST["nome"];
     $idade = $_POST["idade"];
     $raca = $_POST["raca"];
@@ -12,23 +13,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atributos</title>
-    <!--<link rel="stylesheet" href="style.css">-->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <h1>Atributos</h1>
         <form action="SeuPersonagem.php" method="POST">
-            <input type="hidden" name="nome" value="<?php echo $nome ?>">
-            <input type="hidden" name="idade" value="<?php echo $idade ?>">
-            <input type="hidden" name="raca" value="<?php echo $raca ?>">
-            <input type="hidden" name="classe" value="<?php echo $classe ?>">
+            <input type="hidden" name="tipo" value="<?php echo $tipo; ?>">
+            <input type="hidden" name="nome" value="<?php echo $nome; ?>">
+            <input type="hidden" name="idade" value="<?php echo $idade; ?>">
+            <input type="hidden" name="raca" value="<?php echo $raca; ?>">
+            <input type="hidden" name="classe" value="<?php echo $classe; ?>">
 
             <label for="forca">Força</label>
-            <div>
-                <button style="display: inline-block;">-</button>
-                <button style="display: inline-block;">+</button>
+            <button >-</button>
+            <div style="border: 1px solid #000; padding: 10px;">
+                teste
             </div>
-                <input type="submit" value="Gerar :D" name="gerar">
+            <!--<input type="text" name=forca value="0">-->
+            <button >+</button>
+            
+            <label for="destreza">Destreza</label>
+            <button style="display: inline-block;">-</button>
+            <input type="text" name=destreza>
+            <button style="display: inline-block;">+</button>
+
+            <label for="constituicao">Constituição</label>
+            <button style="display: inline-block;">-</button>
+            <input type="text" name="constituicao">
+            <button style="display: inline-block;">+</button>
+
+            <label for="inteligencia">Inteligência</label>
+            <button style="display: inline-block;">-</button>
+            <input type="text" name="inteligencia">
+            <button style="display: inline-block;">+</button>
+
+            <label for="sabedoria">Sabedoria</label>
+            <button style="display: inline-block;">-</button>
+            <input type="text" name="sabedoria">
+            <button style="display: inline-block;">+</button>
+
+            <label for="carisma">Carisma</label>
+            <button style="display: inline-block;">-</button>
+            <input type="text" name="carisma">
+            <button style="display: inline-block;">+</button>
+            
+            <input type="submit" value="Gerar :D" name="gerar">
             
         </form>
     </header>
