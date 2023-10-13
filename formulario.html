@@ -10,11 +10,13 @@
     <header> 
         <h1>Ideia de Página Inicial</h1>
         <form action="formulario2.php" method="POST">
-        <label for="tipo">Escolha seu tipo de Personagem:</label>2
-        <select name="tipo" >
-            <option value="jogador">Jogador</option>
-            <option value="npc">NPC</option>
-        </select>
+        
+        <label for="tipo">Escolha seu tipo de Personagem:</label>
+        <input type="radio" name="tipo" value="jogador" required>
+        <label for="jogador">Jogador</label>
+        <input type="radio" name="tipo" value="npc" required>
+        <label for="npc">NPC</label>
+        <br>
 
         <label for="nome">Nome do Seu Personagem:</label>
         <input type="text" name = "nome">
