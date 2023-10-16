@@ -1,7 +1,7 @@
 Layout Projeto RPG
 
 
-Página Inicial:
+*Página Inicial:
 
 A página inicial será composta pelos campos:
 
@@ -27,7 +27,7 @@ Seleção de tema para o background do personagem:
 
 
 
-Página Auxiliar (Não será implementada no momento):
+*Página Auxiliar (Não será implementada no momento):
 
 A página auxiliar será composta pelos campos:
 
@@ -36,7 +36,7 @@ Seleção de tema para campanha (Recurso para Mestre - Ver a possibilidade de im
 
 
 		
-Página de Saída (Ficha Preenchida):
+*Página de Saída (Ficha Preenchida):
 
 A página de saída conterá as seguintes informações:
 
@@ -54,4 +54,3 @@ Habilidades e características de classe ou raça;
 Background do personagem;
 Retorno de modelo para campanha (Apenas p/ Mestre, será implementado caso seja viável);
 Imagem de IA do personagem (Apenas será implementado se for viável).
-		
