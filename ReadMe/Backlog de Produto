@@ -1,0 +1,33 @@
+Backlog de Produto
+
+
+História
+Descrição
+Prioridade
+Formulário
+Página inicial que irá conter os campos a serem preenchidos pelo usuário com os dados de seu personagem
+Muito Alta
+Campo de Observações
+Campos para detalhes adicionais referente a história e aparência do personagem.
+Alta
+Raça e Classe
+Seleção com os principais tipos de Raças e Classes disponíveis
+Alta
+Atributos
+Após preencher o formulário será redirecionado para esta página, onde irá distribuir os atributos do personagem
+Muito Alta
+Background
+O retorno do background do personagem será feito por IA
+Muito Alta
+Imagem IA
+Se possível, será implementado na ficha uma imagem de IA com a aparência do personagem
+Média
+
+
+
+
+Backlog da Sprint:
+
+Formulário;
+Seleção Raça e Classe;
+Atributos.
