@@ -11,7 +11,7 @@
 <body>
     <header>
         <h1>Ideia de Página Inicial</h1>
-        <form action="formulario2.php" method="POST">
+        <form action="prompt.php" method="POST">
 
             <!--TIPO-->
             <div>
@@ -46,8 +46,32 @@
             <!--TRAÇOS DE PERSONALIDADE-->
             <div>
                 <label for="tracos_de_personalidade">Traços de Personalidade</label>
-                <select name="tracos_de_personalidade" >
-                    <option value=""></option>
+                <select name="tracos_de_personalidade">
+                    <option value="justo">Justo</option>
+                    <option value="esperto">Esperto</option>
+                    <option value="empatico">Empático</option>
+                    <option value="corajoso">Corajoso</option>
+                    <option value="leal">Leal</option>
+                    <option value="criativo">Criativo</option>
+                    <option value="paciente">Paciente</option>
+                    <option value="generoso">Generoso</option>
+                    <option value="determinado">Determinado</option>
+                    <option value="alegre">Alegre</option>
+                    <option value="manipulador">Manipulador</option>
+                    <option value="perverso">Perverso</option>
+                    <option value="egoista">Egoísta</option>
+                    <option value="arrogante">Arrogante</option>
+                    <option value="teimoso">Teimoso</option>
+                    <option value="rancoroso">Rancoroso</option>
+                    <option value="cinico">Cínico</option>
+                    <option value="inseguro">Inseguro</option>
+                    <option value="irresponsavel">Irresponsável</option>
+                    <option value="hostil">Hostil</option>
+                    <option value="impulsivo">Impulsivo</option>
+                    <option value="desonesto">Desonesto</option>
+                    <option value="preconceituoso">Preconceituoso</option>
+                    <option value="mesquinho">Mesquinho</option>
+                    <option value="vingativo">Vingativo</option>
                 </select>
             </div>
             <!--RAÇA-->
@@ -55,42 +79,100 @@
                 <label for="raca">Escolha sua Raça:</label>
                 <select name="raca">
                     <option value="humano">Humano</option>
-                    <option value="anao">Anão</option>
                     <option value="elfo">Elfo</option>
                     <option value="anao">Anão</option>
                     <option value="halfling">Halfling</option>
                     <option value="gnomo">Gnomo</option>
                     <option value="tiefling">Tiefling</option>
-                    <option value="meioelfo">MeioElfo</option>
-                    <option value="meioorc">MeioOrc</option>
+                    <option value="dragonborn">Dragonborn</option>
+                    <option value="meio-elfo">Meio-Elfo</option>
+                    <option value="meio-orc">Meio-Orc</option>
                 </select>
             </div>
             <!--CLASSE-->
             <div>
                 <label for="classe">Escolha sua classe:</label>
                 <select name="classe">
-                    <option value="guerreiro">Guereiro</option>
                     <option value="barbaro">Bárbaro</option>
                     <option value="bardo">Bardo</option>
                     <option value="bruxo">Bruxo</option>
-                    <option value="clerigo">Clerigo</option>
+                    <option value="clerigo">Clérigo</option>
                     <option value="druida">Druida</option>
                     <option value="feiticeiro">Feiticeiro</option>
+                    <option value="guerreiro">Guerreiro</option>
                     <option value="guardiao">Guardião</option>
                     <option value="ladino">Ladino</option>
                     <option value="mago">Mago</option>
                     <option value="monge">Monge</option>
                     <option value="paladino">Paladino</option>
-                    <option value="paladino">Paladino</option>
-                    <option value="xama">Xamã</option>
                 </select>
             </div>
-            <!--OBS-->
+            <!--TIPO DO CABELO-->
+            <div>
+                <label for="tipo_cabelo">Tipo de Cabelo:</label>
+                <select name="tipo_cabelo">
+                    <option value="curto">Curto</option>
+                    <option value="comprido">Comprido</option>
+                    <option value="calvo">Calvo</option>
+                    <option value="trancas">Tranças</option>
+                </select>
+            </div>
+            <!--COR DO CABELO-->
+            <div>
+                <label for="cor_cabelo">Cor do Cbelo:</label>
+                <select name="cor_cabelo">
+                    <option value="preto">Preto</option>
+                    <option value="castanho">Castanho</option>
+                    <option value="loiro">Loiro</option>
+                    <option value="ruivo">Ruivo</option>
+                    <option value="azul">Azul</option>
+                    <option value="verde">Verde</option>
+                    <option value="roxo">Roxo</option>
+                </select>
+            </div>
+            <!--Acessórios ou Aparência-->
+            <div>
+                <label for="acessorio_aparencia">Traços de Aparência ou Acessório:</label>
+                <select name="acessorio_aparencia">
+                    <option value="cicatriz">Cicatriz no rosto</option>
+                    <option value="brinco">Brinco</option>
+                    <option value="colar">Colar</option>
+                    <option value="tatuagens">Tatuagens</option>
+                </select>
+            </div>
+            <!--TEMA DO BACKGROUND-->
+            <div>
+                <label for="tema_background">Escolha o tema da sua história:</label>
+                <select name="tema_background">
+                    <option value="historia_vinganca">História de Vingança</option>
+                    <option value="jornada_heroi">Jornada do Herói</option>
+                    <option value="conspiracao_politica">Conspiração Política</option>
+                    <option value="amor_proibido">Amor Proibido</option>
+                    <option value="misterio_sobrenatural">Mistério Sobrenatural</option>
+                    <option value="aventura_exploracao">Aventura de Exploração</option>
+                    <option value="fuga_prisao">A Fuga da Prisão</option>
+                    <option value="guerra_epica">Guerra Épica</option>
+                    <option value="busca_tesouro">Busca pelo Tesouro</option>
+                    <option value="redencao_vilao">Redenção do Vilão</option>
+                    <option value="tragedia_amor">Tragédia de Amor</option>
+                    <option value="confronto_deuses">Confronto de Deuses</option>
+                    <option value="intriga_corte_real">Intriga na Corte Real</option>
+                    <option value="ascensao_poder">Ascensão ao Poder</option>
+                    <option value="missao_resgate">Missão de Resgate</option>
+                    <option value="sobrevivencia_ambiente_hostil">Sobrevivência em Ambiente Hostil</option>
+                    <option value="desafio_sobrevivencia">Desafio de Sobrevivência</option>
+                    <option value="competicao_mortal">Competição Mortal</option>
+                    <option value="busca_verdade">Busca pela Verdade</option>
+                    <option value="revolucao_popular">Revolução Popular</option>
+                    <option value="conflito_racial">Conflito Racial</option>
+                </select>
+            </div>
+            <!--OBS
             <div>
                 <label for="obs">Suas Observações Referentes a Aparência:</label>
                 <input type="text" name="obs" maxlength="100" style="height: 200px;">
             </div>
-
+            -->
             <input type="submit" value="Pŕoximo" name="proximo">
         </form>
     </header>
