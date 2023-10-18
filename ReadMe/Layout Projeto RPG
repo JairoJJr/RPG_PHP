@@ -5,10 +5,10 @@ Layout Projeto RPG
 
 A página inicial será composta pelos campos:
 
-- Seleção se será um personagem ou NPC;
-- Nome;
-- Idade;
-- Sexo: (Masc, Fem, Não Informado);
+- Seleção se será um personagem ou NPC;ok
+- Nome;ok
+- Idade;ok
+- Sexo: (Masc, Fem, Não Informado);ok
 - Seleção de classe: (Bárbaro, Bardo, Bruxo, Clérigo, Druida, Feiticeiro, Guerreiro, Guardião, Ladino, Mago, Monge, Paladino);
 - Seleção de raça: (Humano, Elfo, Anão, Halfling, Gnomo, Tiefling, Dragonborn, Meio-Elfo e Meio-Orc);
 - Seleção do tipo de cabelo: (Curto, Comprido, Calvo, Tranças);
