@@ -11,7 +11,7 @@
 <body>
     <header>
         <h1>Ideia de Página Inicial</h1>
-        <form action="prompt.php" method="POST">
+        <form action="SeuPersonagem.php" method="POST">
 
             <!--TIPO-->
             <div>
@@ -173,8 +173,15 @@
                 <input type="text" name="obs" maxlength="100" style="height: 200px;">
             </div>
             -->
-            <input type="submit" value="Pŕoximo" name="proximo">
+            <input type="submit" value="Pŕoximo" name="proximo" >
         </form>
+        <?php 
+            if (isset($_POST['proximo'])){
+                header('location: SeuPersonagem.php');
+                require 'prompt.php';
+                
+            }
+        ?>
     </header>
 </body>
 

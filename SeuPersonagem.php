@@ -1,15 +1,18 @@
-<?php 
-    echo $_POST["tipo"];
-    echo "<br>";
-    echo $_POST["nome"];
-    echo "<br>";
-    echo $_POST["idade"];
-    echo "<br>";
-    echo $_POST["raca"];
-    echo "<br>";
-    echo $_POST["classe"];
-    echo "<br>";
-    echo $_POST["obs"];
-    echo "<br>";
-    echo $_POST["nome"];
-?>
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SeuPersonagem</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Esse é seu personagem</h1>
+    <p><?php 
+            require 'prompt.php';
+            echo $prompt;
+    ?></p>
+</body>
+</html>
