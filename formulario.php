@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário inicial</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Formulário Personagem</title>
+    <link rel="stylesheet" href="newcss.css">
 </head>
 
 <body>
-    <header>
-        <h1>Ideia de Página Inicial</h1>
+    <main>
+        <header><h1>Crie o seu personagem de RPG</h1></header>
         <form action="SeuPersonagem.php" method="POST">
 
             <!--TIPO-->
@@ -173,7 +173,7 @@
                 <input type="text" name="obs" maxlength="100" style="height: 200px;">
             </div>
             -->
-            <input type="submit" value="Pŕoximo" name="proximo" >
+            <input type="submit" value="Próximo" name="proximo" >
         </form>
         <?php 
             if (isset($_POST['proximo'])){
@@ -182,7 +182,7 @@
                 
             }
         ?>
-    </header>
+    </main>
 </body>
 
 </html>
