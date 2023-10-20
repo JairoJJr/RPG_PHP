@@ -10,7 +10,7 @@
 
 <body>
     <main>
-        <header><h1>Crie o seu personagem de RPG</h1></header>
+        <h1>Crie o seu personagem de RPG</h1>
         <form action="SeuPersonagem.php" method="POST">
 
             <!--TIPO-->
@@ -179,7 +179,6 @@
             if (isset($_POST['proximo'])){
                 header('location: SeuPersonagem.php');
                 require 'prompt.php';
-                
             }
         ?>
     </main>

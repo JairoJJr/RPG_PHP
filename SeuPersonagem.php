@@ -13,7 +13,7 @@
             require 'prompt.php';
             echo $prompt;
 
-            $apiKey = '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';
+            $apiKey = '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';
 
             $endPoint = 'https://api.openai.com/v1/chat/completions';
 

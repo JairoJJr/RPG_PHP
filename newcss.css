@@ -8,11 +8,13 @@
 /* ELEMENTOS DA INTERFACE */
 
 body {
+    background-color: #15142b;
     background-image: url(background.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
+
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -25,9 +27,8 @@ header, main, section, article {
 }
 
 header > h1 {
-    rgb(29, 29, 29);
-    color: #725d5c;
-    text-shadow: 3px 3px 0px rgb(29, 29, 29);
+    color: rgb(187, 187, 187);
+    text-shadow: 3px 3px 0px rgb(31, 31, 31);
 }
 
 main, section, article {
