@@ -113,20 +113,20 @@
                 <select name="tipo_cabelo">
                     <option value="curto">Curto</option>
                     <option value="comprido">Comprido</option>
-                    <option value="calvo">Calvo</option>
                     <option value="trancas">Tranças</option>
+                    <option value="calvo">Calvo</option>
                 </select>
             </div>
             <!--COR DO CABELO-->
             <div>
-                <label for="cor_cabelo">Cor do Cbelo:</label>
+                <label for="cor_cabelo">Cor do Cabelo:</label>
                 <select name="cor_cabelo">
                     <option value="preto">Preto</option>
                     <option value="castanho">Castanho</option>
                     <option value="loiro">Loiro</option>
                     <option value="ruivo">Ruivo</option>
-                    <option value="azul">Azul</option>
                     <option value="verde">Verde</option>
+                    <option value="azul">Azul</option>
                     <option value="roxo">Roxo</option>
                 </select>
             </div>
@@ -134,10 +134,11 @@
             <div>
                 <label for="acessorio_aparencia">Traços de Aparência ou Acessório:</label>
                 <select name="acessorio_aparencia">
+                    <option value="barba">Barba</option>
                     <option value="cicatriz">Cicatriz no rosto</option>
+                    <option value="tatuagens">Tatuagens</option>
                     <option value="brinco">Brinco</option>
                     <option value="colar">Colar</option>
-                    <option value="tatuagens">Tatuagens</option>
                 </select>
             </div>
             <!--TEMA DO BACKGROUND-->
