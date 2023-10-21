@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário Personagem</title>
-    <link rel="stylesheet" href="newcss.css">
+    <link rel="stylesheet" href="paginaprincipal.css">
 </head>
 <body>
     <!--IMAGEM CRIE O SEU PERSONAGEM-->
-    <div><img src="criar.png"></div>
+    <div><img src="criarpersonagem.png"></div>
     <main>
         <form action="SeuPersonagem.php" method="POST">
             <!--TIPO-->
