@@ -7,14 +7,6 @@
 
 /* ELEMENTOS DA INTERFACE */
 
-#criar {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-}
-
 body {
     background-color: #15142b;
     background-image: url(background.jpg);
@@ -22,7 +14,6 @@ body {
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
-
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -167,7 +158,7 @@ input[type=text], [type=number], select, input[type=date], input[type=date], inp
     border-radius: 4px;
     box-sizing: border-box;
 }
-  
+
 input[type=submit] {
     width: 100%;
     background-color: #4CAF50;
@@ -179,7 +170,7 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
 }
-  
+
 input[type=submit]:hover {
     background-color: #45a049;
 }
@@ -233,4 +224,3 @@ input[type=radio] + label, input[type=checkbox] + label {
     font-size: 1em;
     background-color: rgba(0, 0, 0, 0);
 }
-

@@ -7,13 +7,11 @@
     <title>Formulário Personagem</title>
     <link rel="stylesheet" href="newcss.css">
 </head>
-
 <body>
+    <!--IMAGEM CRIE O SEU PERSONAGEM-->
+    <div><img src="criar.png"></div>
     <main>
         <form action="SeuPersonagem.php" method="POST">
-
-            <!--IMAGEM CRIE O SEU PERSONAGEM-->
-            <img class="criar" src="criar2.png">
             <!--TIPO-->
             <div>
                 <label for="tipo">Escolha seu tipo de Personagem:</label>
@@ -185,5 +183,4 @@
         ?>
     </main>
 </body>
-
 </html>
