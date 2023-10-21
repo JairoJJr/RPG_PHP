@@ -7,6 +7,14 @@
 
 /* ELEMENTOS DA INTERFACE */
 
+#criar {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
 body {
     background-color: #15142b;
     background-image: url(background.jpg);

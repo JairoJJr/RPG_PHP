@@ -10,9 +10,10 @@
 
 <body>
     <main>
-        <h1>Crie o seu personagem de RPG</h1>
         <form action="SeuPersonagem.php" method="POST">
 
+            <!--IMAGEM CRIE O SEU PERSONAGEM-->
+            <img class="criar" src="criar2.png">
             <!--TIPO-->
             <div>
                 <label for="tipo">Escolha seu tipo de Personagem:</label>
