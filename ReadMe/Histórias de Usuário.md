@@ -1,7 +1,7 @@
 # Histórias de Usuário 
 
 
-## “Eu como usuário quero um Software que agilize o processo de preencher uma ficha de RPG, focando mais tempo na ação do jogo.”
+### “Eu como usuário quero um Software que agilize o processo de preencher uma ficha de RPG, focando mais tempo na ação do jogo.”
 
 **História: Preenchimento da ficha**
 
@@ -15,7 +15,7 @@
 
 
 
-## “Eu como usuário quero um Software que crie um background (história) para o meu personagem, facilitando o processo criativo.”
+### “Eu como usuário quero um Software que crie um background (história) para o meu personagem, facilitando o processo criativo.”
 
 **História: Background**
 
@@ -28,7 +28,7 @@
 
 
 
-## “Eu como usuário quero um Software que me permita pontuar características físicas e detalhes na personalidade e história do meu personagem, sem perder a experiência de criação.”
+### “Eu como usuário quero um Software que me permita pontuar características físicas e detalhes na personalidade e história do meu personagem, sem perder a experiência de criação.”
 
 **História: Características e Detalhes**
 
@@ -41,7 +41,7 @@
 
 
 
-## “Eu como mestre de RPG quero um software que utilize IA para criar personagens NPC 's realistas e com histórias complexas para enriquecer a experiência de jogo.”
+### “Eu como mestre de RPG quero um software que utilize IA para criar personagens NPC 's realistas e com histórias complexas para enriquecer a experiência de jogo.”
 
 **História: Criação de NPC**
 
