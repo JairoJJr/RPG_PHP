@@ -3,7 +3,7 @@
 
 ## Página Inicial
 
-A página inicial será composta pelos campos:
+**A página inicial será composta pelos campos:**
 
 - Seleção se será um personagem ou NPC;
 - Nome;
@@ -21,7 +21,7 @@ A página inicial será composta pelos campos:
 
 ## Página Auxiliar (Não será implementada no momento)
 
-A página auxiliar será composta pelos campos:
+**A página auxiliar será composta pelos campos:**
 
 - Seleção de tema para campanha (Recurso para Mestre - Ver a possibilidade de implementação): (Busca por um Artefato Mágico, Invasão de Demônios, Guerra entre Reinos, A Maldição de um Necromante, A Guilda de Ladrões, Enfrentando um Dragão Ancião, A Conspiração dos Magos, A Corrida contra o Lich, A Maldição de um Lobisomem, A Profecia Esquecida, A Praga dos Mortos-Vivos, O Despertar de um Deus Ancestral, A Busca pela Espada Lendária, O Labirinto Amaldiçoado, A Busca por uma Cidade Perdida, A Guerra dos Elementais, O Despertar de um Titã, A Invasão de Bestas Gigantes, O Torneio de Magia, A Vingança de um Vampiro, A Maldição dos Elementos,A Escravidão de uma Cidade Élfica);
 
@@ -29,7 +29,7 @@ A página auxiliar será composta pelos campos:
 		
 ## Página de Saída (Ficha Preenchida)
 
-A página de saída conterá as seguintes informações:
+**A página de saída conterá as seguintes informações:**
 
 - Nome do personagem;
 - Idade do personagem;
