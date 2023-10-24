@@ -1,25 +1,25 @@
-Layout Projeto RPG
+# Layout Projeto RPG
 
 
-* Página Inicial
+## Página Inicial
 
 A página inicial será composta pelos campos:
 
-- Seleção se será um personagem ou NPC;ok
-- Nome;ok
-- Idade;ok
-- Sexo: (Masc, Fem, Não Informado);ok
-- Seleção de classe: (Bárbaro, Bardo, Bruxo, Clérigo, Druida, Feiticeiro, Guerreiro, Guardião, Ladino, Mago, Monge, Paladino);ok
-- Seleção de raça: (Humano, Elfo, Anão, Halfling, Gnomo, Tiefling, Dragonborn, Meio-Elfo e Meio-Orc);ok
-- Seleção do tipo de cabelo: (Curto, Comprido, Calvo, Tranças);ok
-- Seleção da cor do cabelo: (Preto, Castanho, Loiro, Ruivo, Azul, Verde, Roxo);ok
-- Seleção de acessório ou traço de aparência: (Cicatriz no rosto, Brinco, Colar, Tatuagens);ok
-- Seleção de traços de personalidade: (Justo, Esperto, Empático, Corajoso, Leal, Criativo, Paciente, Generoso, Determinado, Alegre, Manipulador, Perverso, Egoísta, Arrogante, Teimoso, Rancoroso, Cínico, Inseguro, Irresponsável, Hostil, Impulsivo, Desonesto, Preconceituoso, Mesquinho, Vingativo);ok
-- Seleção de tema para o background do personagem: (História de Vingança, Jornada do Herói, Conspiração Política, Amor Proibido, Mistério Sobrenatural, Aventura de Exploração, A Fuga da Prisão, Guerra Épica, Busca pelo Tesouro, Redenção do Vilão, Tragédia de Amor, Confronto de Deuses, Intriga na Corte Real, Ascensão ao Poder, Missão de Resgate, Sobrevivência em Ambiente Hostil, Desafio de Sobrevivência, Competição Mortal, Busca pela Verdade, Revolução Popular, Conflito Racial).ok
+- Seleção se será um personagem ou NPC;
+- Nome;
+- Idade;
+- Sexo: (Masc, Fem, Não Informado);
+- Seleção de classe: (Bárbaro, Bardo, Bruxo, Clérigo, Druida, Feiticeiro, Guerreiro, Guardião, Ladino, Mago, Monge, Paladino);
+- Seleção de raça: (Humano, Elfo, Anão, Halfling, Gnomo, Tiefling, Dragonborn, Meio-Elfo e Meio-Orc);
+- Seleção do tipo de cabelo: (Curto, Comprido, Calvo, Tranças);
+- Seleção da cor do cabelo: (Preto, Castanho, Loiro, Ruivo, Azul, Verde, Roxo);
+- Seleção de acessório ou traço de aparência: (Cicatriz no rosto, Brinco, Colar, Tatuagens);
+- Seleção de traços de personalidade: (Justo, Esperto, Empático, Corajoso, Leal, Criativo, Paciente, Generoso, Determinado, Alegre, Manipulador, Perverso, Egoísta, Arrogante, Teimoso, Rancoroso, Cínico, Inseguro, Irresponsável, Hostil, Impulsivo, Desonesto, Preconceituoso, Mesquinho, Vingativo);
+- Seleção de tema para o background do personagem: (História de Vingança, Jornada do Herói, Conspiração Política, Amor Proibido, Mistério Sobrenatural, Aventura de Exploração, A Fuga da Prisão, Guerra Épica, Busca pelo Tesouro, Redenção do Vilão, Tragédia de Amor, Confronto de Deuses, Intriga na Corte Real, Ascensão ao Poder, Missão de Resgate, Sobrevivência em Ambiente Hostil, Desafio de Sobrevivência, Competição Mortal, Busca pela Verdade, Revolução Popular, Conflito Racial).
 
 
 
-* Página Auxiliar (Não será implementada no momento)
+## Página Auxiliar (Não será implementada no momento)
 
 A página auxiliar será composta pelos campos:
 
@@ -27,7 +27,7 @@ A página auxiliar será composta pelos campos:
 
 
 		
-* Página de Saída (Ficha Preenchida)
+## Página de Saída (Ficha Preenchida)
 
 A página de saída conterá as seguintes informações:
 
