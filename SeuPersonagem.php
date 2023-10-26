@@ -5,10 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>SeuPersonagem</title>
         <link rel="stylesheet" href="paginasaida.css">
-    </head>
+    </head> 
     <body>
         <!--Imagem Seu personagem-->
-        <div><img src="seupersonagem.png"></div>
+        <div><img src="img/seupersonagem.png"></div>
         <main>
             <p><?php
                 //INSERE O ARQUIVO QUE ESTÁ COM O PROMPT
@@ -16,7 +16,7 @@
                 //INSERE O  ARQUIVO QUE CHAMA AS VARIÁVEIS LOCAIS
                 require 'dotenv.php';
 
-                //IMPRIME O PROMPT PARA TESTE (NÃO ESTARÁ NO PRJETO FINAL)
+                //IMPRIME O PROMPT PARA TESTE (NÃO ESTARÁ NO PROJETO FINAL)
                 //echo $prompt;
                 
                 //CHAMA A VARIÁVEL QUE GUARDA A API KEY NO ARQUIVO .ENV
