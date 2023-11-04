@@ -9,7 +9,7 @@
 </head>
 <body>
     <!--IMAGEM CRIE O SEU PERSONAGEM-->
-    <div><img src="img/criarpersonagem3.png"></div>
+    <div><img src="img/criar_personagem2.png"></div>
     <main>
         <form action="SeuPersonagem.php" method="POST">
             <!--TIPO-->
