@@ -2,17 +2,17 @@
 
 @font-face {
     font-family: 'celta';
-    src: url(../fontes/PR\ Viking.ttf);
+    src: url(../RPG_PHP/fontes/Berry\ Rotunda.ttf);
 }
 
 @font-face {
-    font-family: 'gothic';
-    src: url(../RPG_PHP/fontes/Seagram\ tfb.ttf);
+    font-family: 'medieval';
+    src: url(../RPG_PHP/fontes/MedievalSharp-Regular.ttf);
 }
 
 @font-face {
-    font-family: 'gothic02';
-    src: url(../RPG_PHP/fontes/TheQualityBrave-Regular.ttf);
+    font-family: 'viking';
+    src: url(../RPG_PHP/fontes/PR\ Viking.ttf);
 }
 
 * {
@@ -64,9 +64,13 @@ footer {
 }
 
 p {
+    max-width: 1000px;
+}
+
+p {
     font-family: 'celta';
-    font-size: 30px;
-    text-align: justify;
+    font-size: 33.5px;
+    text-align: center;
     line-height: 1.5em;
 }
 
