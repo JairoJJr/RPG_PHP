@@ -14,7 +14,7 @@
         <form action="SeuPersonagem.php" method="POST">
             <!--TIPO-->
             <div>
-                <label for="tipo">Escolha seu tipo de Personagem:</label>
+                <label for="tipo">Escolha seu tipo de personagem:</label>
                 <input type="radio" name="tipo" value="jogador" required>
                 <label for="jogador">Jogador</label>
                 <input type="radio" name="tipo" value="npc" required>
@@ -23,28 +23,28 @@
             </div>
             <!--NOME-->
             <div>
-                <label for="nome">Nome do Seu Personagem:</label>
+                <label for="nome">Nome do seu personagem:</label>
                 <input type="text" name="nome">
             </div>
             <!--IDADE-->
             <div>
-                <label for="idade">Idade Seu Personagem:</label>
+                <label for="idade">Idade do seu personagem:</label>
                 <input type="text" name="idade">
             </div>
             <!--SEXO-->
             <div>
-                <label for="sexo">Escolha o sexo do seu Personagem:</label>
+                <label for="sexo">Escolha o sexo do seu personagem:</label>
                 <input type="radio" name="sexo" value="masculino" required>
                 <label for="masculino">Masculino</label>
                 <input type="radio" name="sexo" value="feminino" required>
                 <label for="feminino">Feminino</label>
                 <input type="radio" name="sexo" value="pni" required>
-                <label for="pni">Prefiro não Informar</label>
+                <label for="pni">Prefiro não informar</label>
                 <br>
             </div>
             <!--TRAÇOS DE PERSONALIDADE-->
             <div>
-                <label for="tracos_de_personalidade">Traços de Personalidade</label>
+                <label for="tracos_de_personalidade">Traços de personalidade:</label>
                 <select name="tracos_de_personalidade">
                     <option value="justo">Justo</option>
                     <option value="esperto">Esperto</option>
@@ -75,7 +75,7 @@
             </div>
             <!--RAÇA-->
             <div>
-                <label for="raca">Escolha sua Raça:</label>
+                <label for="raca">Escolha sua raça:</label>
                 <select name="raca">
                     <option value="humano">Humano</option>
                     <option value="elfo">Elfo</option>
@@ -108,7 +108,7 @@
             </div>
             <!--TIPO DO CABELO-->
             <div>
-                <label for="tipo_cabelo">Tipo de Cabelo:</label>
+                <label for="tipo_cabelo">Tipo de cabelo:</label>
                 <select name="tipo_cabelo">
                     <option value="curto">Curto</option>
                     <option value="comprido">Comprido</option>
@@ -118,7 +118,7 @@
             </div>
             <!--COR DO CABELO-->
             <div>
-                <label for="cor_cabelo">Cor do Cabelo:</label>
+                <label for="cor_cabelo">Cor do cabelo:</label>
                 <select name="cor_cabelo">
                     <option value="preto">Preto</option>
                     <option value="castanho">Castanho</option>
@@ -131,7 +131,7 @@
             </div>
             <!--Acessórios ou Aparência-->
             <div>
-                <label for="acessorio_aparencia">Traços de Aparência ou Acessório:</label>
+                <label for="acessorio_aparencia">Traços de aparência ou acessório:</label>
                 <select name="acessorio_aparencia">
                     <option value="barba">Barba</option>
                     <option value="cicatriz">Cicatriz no rosto</option>

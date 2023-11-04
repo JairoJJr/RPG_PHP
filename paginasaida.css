@@ -1,5 +1,20 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'celta';
+    src: url(../fontes/PR\ Viking.ttf);
+}
+
+@font-face {
+    font-family: 'gothic';
+    src: url(../RPG_PHP/fontes/Seagram\ tfb.ttf);
+}
+
+@font-face {
+    font-family: 'gothic02';
+    src: url(../RPG_PHP/fontes/TheQualityBrave-Regular.ttf);
+}
+
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     box-sizing: border-box;
@@ -49,6 +64,8 @@ footer {
 }
 
 p {
+    font-family: 'celta';
+    font-size: 30px;
     text-align: justify;
     line-height: 1.5em;
 }
