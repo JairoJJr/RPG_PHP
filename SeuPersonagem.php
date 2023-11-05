@@ -10,7 +10,7 @@
 
 <body>
     <!--Imagem Seu personagem-->
-    <div><img src="img/seupersonagem.png"></div>
+    <div><img src="img/seu_personagem2.png"></div>
     <p><?php
         //INSERE O ARQUIVO QUE ESTÁ COM O PROMPT
         require 'prompt.php';
