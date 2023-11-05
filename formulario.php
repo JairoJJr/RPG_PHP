@@ -7,11 +7,25 @@
     <title>Formulário Personagem</title>
     <link rel="stylesheet" href="paginaprincipal.css">
 </head>
+
 <body>
+    <!--popup-->
+
+    <div id="popup" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: red; padding: 100px; border: 1px solid #ccc;">
+        <h1>Caaaalma Javascripto</h1>
+        <p>Seu personagem está sendo gerado </p>
+    </div>
+    <script>
+        function mostrarPopup() {
+            var popup = document.getElementById("popup");
+            popup.style.display = 'block';
+        }
+    </script>
+
     <!--IMAGEM CRIE O SEU PERSONAGEM-->
     <div><img src="img/criar_personagem2.png"></div>
     <main>
-        <form action="SeuPersonagem.php" method="POST">
+        <form action="SeuPersonagem.php" method="POST" onsubmit="mostrarPopup()">
             <!--TIPO-->
             <div>
                 <label for="tipo">Escolha seu tipo de personagem:</label>
@@ -173,14 +187,15 @@
                 <input type="text" name="obs" maxlength="100" style="height: 200px;">
             </div>
             -->
-            <input type="submit" value="Próximo" name="proximo" >
+            <input type="submit" value="Próximo" name="proximo">
         </form>
-        <?php 
-            if (isset($_POST['proximo'])){
-                header('location: SeuPersonagem.php');
-                require 'prompt.php';
-            }
+        <?php
+        //    if (isset($_POST['proximo'])){
+        //        header('location: SeuPersonagem.php');
+        //        require 'prompt.php';
+        //    }
         ?>
     </main>
 </body>
+
 </html>
