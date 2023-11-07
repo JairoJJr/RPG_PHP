@@ -9,8 +9,7 @@
 </head>
 
 <body>
-    <!--popup-->
-
+    <!--PopUp-->
     <div id="popup" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: red; padding: 100px; border: 1px solid #ccc;">
         <h1>Caaaalma Javascripto</h1>
         <p>Seu personagem está sendo gerado </p>
