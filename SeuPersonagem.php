@@ -54,6 +54,7 @@
             echo '<div>';
             //echo var_dump($resultado);
             $resposta = $resultado['choices'][0]['message']['content'];
+            //Saída GPT
             echo $resposta;
             echo '<div>';
         }
