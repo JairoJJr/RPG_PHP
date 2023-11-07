@@ -37,12 +37,12 @@
             <!--NOME-->
             <div>
                 <label for="nome">Nome do seu personagem:</label>
-                <input type="text" name="nome">
+                <input type="text" name="nome" required>
             </div>
             <!--IDADE-->
             <div>
                 <label for="idade">Idade do seu personagem:</label>
-                <input type="text" name="idade">
+                <input type="number" name="idade" min="0" step="1" required>
             </div>
             <!--SEXO-->
             <div>
