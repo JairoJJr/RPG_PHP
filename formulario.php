@@ -42,7 +42,7 @@
             <!--IDADE-->
             <div>
                 <label for="idade">Idade do seu personagem:</label>
-                <input type="number" name="idade" min="0" step="1" required>
+                <input type="number" name="idade" min="4" step="1" required>
             </div>
             <!--SEXO-->
             <div>
