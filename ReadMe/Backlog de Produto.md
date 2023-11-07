@@ -37,3 +37,9 @@
 - **Background;**
 - **Seleção de Raça e Classe;**
 - **Aparência do Personagem.**
+
+# 3º Backlog da Sprint:
+
+- **Formulário;**
+- ****Background;**
+- **Aparência do Personagem.**
