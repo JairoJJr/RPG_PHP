@@ -10,9 +10,9 @@
 
 <body>
     <!--PopUp-->
-    <div id="popup" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: red; padding: 100px; border: 1px solid #ccc;">
-        <h1>Caaaalma Javascripto</h1>
-        <p>Seu personagem está sendo gerado </p>
+    <div id="popup" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: rgba(220, 177, 176, 1); padding-left: 20px; padding-right: 20px; padding-bottom: 20px; padding-top: 0px; border: 2px solid #000000; text-align: center; text-shadow: 1.25px 1.25px 0px rgba(255, 255, 255, 0.781); max-width: 375px; max-height: 375px;">
+        <p style="font-size: 40px; text-align: center; font-family: 'medieval';">Aguarde!</p>
+        <p style="font-size: 25px; text-align: center; font-family: 'medieval';">Seu personagem está sendo gerado.</p>
     </div>
     <script>
         function mostrarPopup() {

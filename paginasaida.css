@@ -69,7 +69,16 @@ p {
     font-size: 33.5px;
     text-align: center;
     line-height: 1.5em;
-    text-shadow: 3px 3px 0px rgb(0, 0, 0);
+    text-shadow: 1.25px 1.25px 0px rgba(255, 255, 255, 0.781);
+}
+
+div#resposta {
+    max-width: 1000px;
+    font-family: 'celta';
+    font-size: 33.5px;
+    text-align: center;
+    line-height: 1.5em;
+    text-shadow: 1.25px 1.25px 0px rgba(255, 255, 255, 0.781);
 }
 
 h2, h3, h4 {

@@ -48,15 +48,15 @@
 
         //RESPOSTA ENVIADA DA API
         if ($response === false) {
-            echo 'Deu Ruim!' . curl_error($ch);
+            echo 'Erro ao gerar a resposta!' . curl_error($ch);
         } else {
             $resultado = json_decode($response, true);
-            echo '<div>';
+            echo '<div id="resposta">';
             //echo var_dump($resultado);
             $resposta = $resultado['choices'][0]['message']['content'];
             //Saída GPT
             echo $resposta;
-            echo '<div>';
+            echo '</div>';
         }
         curl_close($ch);
 
