@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário Personagem</title>
     <link rel="stylesheet" href="paginaprincipal.css">
 </head>
-
 <body>
     <!--PopUp-->
     <div id="popup" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: rgba(220, 177, 176, 1); padding-left: 20px; padding-right: 20px; padding-bottom: 20px; padding-top: 0px; border: 2px solid #000000; text-align: center; text-shadow: 1.25px 1.25px 0px rgba(255, 255, 255, 0.781); max-width: 375px; max-height: 375px;">
@@ -20,7 +18,6 @@
             popup.style.display = 'block';
         }
     </script>
-
     <!--IMAGEM CRIE O SEU PERSONAGEM-->
     <div><img src="img/criar_personagem2.png"></div>
     <main>
@@ -186,7 +183,7 @@
                 <input type="text" name="obs" maxlength="100" style="height: 200px;">
             </div>
             -->
-            <input type="submit" value="Próximo" name="proximo">
+            <input type="submit" value="Criar" name="proximo">
         </form>
         <?php
         //    if (isset($_POST['proximo'])){
