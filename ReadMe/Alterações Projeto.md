@@ -1,6 +1,6 @@
 # Alterações do Projeto
 
-### Preenchimento do formulário:
+### Preenchimento do Formulário:
 - Foi alterada a forma de preenchimento do formulário deixando apenas campos de seleção e poucos campos com preenchimento livre, para diminuir erros quando enviar o Prompt.
 
 ### Idealização do Projeto:
