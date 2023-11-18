@@ -183,7 +183,7 @@
                 <input type="text" name="obs" maxlength="100" style="height: 200px;">
             </div>
             -->
-            <input type="submit" value="Criar" name="proximo">
+            <div><input type="submit" value="Criar" name="proximo"></div>
         </form>
         <?php
         //    if (isset($_POST['proximo'])){

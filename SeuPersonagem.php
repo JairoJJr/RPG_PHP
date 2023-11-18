@@ -58,6 +58,9 @@
             echo $resposta;
             echo '</div>';
         }
+
+        include('inserir_dados.php');
+
         curl_close($ch);
 
         //TEXTO EXEMPLO PARA TRABALHAR NO CSS DA RESPOSTA
