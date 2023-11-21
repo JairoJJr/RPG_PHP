@@ -1,21 +1,49 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário Personagem</title>
     <link rel="stylesheet" href="paginaprincipal.css">
 </head>
+
 <body>
     <!--PopUp-->
     <div id="popup" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: rgba(220, 177, 176, 1); padding-left: 20px; padding-right: 20px; padding-bottom: 20px; padding-top: 0px; border: 2px solid #000000; text-align: center; text-shadow: 1.25px 1.25px 0px rgba(255, 255, 255, 0.781); max-width: 375px; max-height: 375px;">
         <p style="font-size: 40px; text-align: center; font-family: 'medieval';">Aguarde!</p>
+        <p id="timerEspera" style="text-align: center;"></p>
         <p style="font-size: 25px; text-align: center; font-family: 'medieval';">Seu personagem está sendo gerado.</p>
     </div>
+    <!--Funções JS Para POPup-->
     <script>
         function mostrarPopup() {
             var popup = document.getElementById("popup");
             popup.style.display = 'block';
+
+            var duration = 60 * 2;
+            var display = document.getElementById("timerEspera");
+
+            timerEspera(duration, display);
+        }
+
+        function timerEspera(duration, display) {
+            var timer = duration,
+                min, sec;
+
+            setInterval(function() {
+                min = parseInt(timer / 60, 10);
+                sec = parseInt(timer % 60, 10);
+
+                min = min < 10 ? "0" + min : min;
+                sec = sec < 10 ? "0" + sec : sec;
+
+                display.textContent = min + ":" + sec;
+
+                if (--timer < 0) {
+                    timer = duration;
+                }
+            }, 1000);
         }
     </script>
     <!--IMAGEM CRIE O SEU PERSONAGEM-->
