@@ -12,7 +12,7 @@
     <!--PopUp-->
     <div id="popup" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: rgba(220, 177, 176, 1); padding-left: 20px; padding-right: 20px; padding-bottom: 20px; padding-top: 0px; border: 2px solid #000000; text-align: center; text-shadow: 1.25px 1.25px 0px rgba(255, 255, 255, 0.781); max-width: 375px; max-height: 375px;">
         <p style="font-size: 40px; text-align: center; font-family: 'medieval';">Aguarde!</p>
-        <p id="timerEspera" style="text-align: center;"></p>
+        <p id="timerEspera" style="font-size: 30px; text-align: center; font-family: 'medieval';"></p>
         <p style="font-size: 25px; text-align: center; font-family: 'medieval';">Seu personagem está sendo gerado.</p>
     </div>
     <!--Funções JS Para POPup-->
