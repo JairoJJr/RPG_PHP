@@ -67,7 +67,7 @@
 
         //echo 'Lairo Pimentheus, um jovem ladino justo, nasceu em uma cidade dividida por desigualdades sociais. Seus cabelos loiros, trançados com colares, eram um símbolo de sua resistência. Com apenas 10 anos de idade, ele testemunhou a opressão sofria pela população mais pobre e decidiu que faria parte da revolução. Seu treinamento como ladino começou cedo, quando ele se tornou um aprendiz de um grupo de ladrões que roubavam dos ricos para ajudar os necessitados. Lairo adquiriu habilidades de furtividade e enganação, as quais aperfeiçoou ao longo dos anos. Ele se destacava pela sua justiça e era conhecido como alguém que lutava pelo bem comum. Suas ações inspiraram muitos a se juntarem à causa da revolução popular. Lairo liderou manifestações pacíficas, persuadindo as classes mais baixas a se unirem contra a tirania. Seus traços de personalidade refletem sua liderança e coragem: "Justiça é meu norte, independentemente das circunstâncias." Seu ideal é "Um mundo onde todos tenham igualdade de oportunidades." Seu vínculo é com as pessoas que lutam ao seu lado: "A revolução é um esforço conjunto, não posso deixar meus companheiros para trás." Suas fraquezas são sua teimosia e imprudência: "Minha determinação muitas vezes me cega para os perigos imediatos." Força: 12 Destreza: 16 Constituição: 14 Inteligência: 13 Sabedoria: 10 Carisma: 15';
         ?></p>
-        <div><a href="index.php">Voltar</a></div>
+        <a href="index.php"><input type="submit" value="Voltar"></a>
 </body>
 
 </html>
