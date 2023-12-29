@@ -41,5 +41,5 @@
 ## 3º Backlog da Sprint:
 
 - **Formulário;**
-- ****Background;**
+- **Background;**
 - **Aparência do Personagem.**
